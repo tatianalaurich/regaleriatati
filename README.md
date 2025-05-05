@@ -7,9 +7,5 @@
 
 <h3 align="left">Conéctate conmigo:</h3>
 <p align="left">
-<a href="https://instagram.com/https://www.instagram.com/regaleriatati/" target="blank"><img align="center"
-Lenguajes y
-
-herramientas
-: rel="noreferrer">
+<a href="https://instagram.com/https://www.instagram.com/regaleriatati/" target="blank"><img align="center">
 
