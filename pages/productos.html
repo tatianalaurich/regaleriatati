@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../estilos/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Productos</title>
 </head>
 <body>
     <header class="header">
         <div class="logo-header">
-            <a href="../index.html"><img src="../img/logotati.png" alt="logotati"></a> 
+        <a href="../index.html"><img src="../img/logotati.png" alt="logotati"></a> 
         </div>
+        <!-- MENÚ HAMBURGUESA -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+        <i class="fa fa-bars"></i>
+        </label>
         <nav class="nav-menu">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="menu-icon"><img src="icons/icons8-menú.svg"></i>
-            </label>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../pages/productos.html">Productos</a></li>
@@ -29,52 +30,43 @@
     <br><br><br>
     <div class="h2-productos"><h2>Productos</h2></div><br><br>
     <br><br><br><br><br>
-    <main class="contenedor-productos">
-        <aside class="aside-productos">
-            <ul>
-                <li><a href="">Llaveros</a></li>
-                <li><a href="">Macetas</a></li>
-                <li><a href="">Manteles, individuales y servilletas</a></li>
-                <li><a href="">Mates</a></li>
-                <li><a href="">Mochilas</a></li>
-                <li><a href="../pages/natura.html">Natura</a></li>
-                <li><a href="">Neceser</a></li>
-                <li><a href="">Portaespirales</a></li>
-                <li><a href="">Tablas</a></li>
-                <li><a href="">Tazas</a></li>
-                <li><a href="">Velas</a></li>
-                
-            </ul>
-        </aside>
-        <section class="section-productos">contenido principal fotos dentro va grids</section>
+    <main>
+        <section class="productos">
+            <div class="productos1"><img src="../img/macetas.jpeg" alt="macetas"><p class="descripcion1">Macetas</p></div>
+            <div class="productos1"><img src="../img/mates.jpeg" alt="mates"><p class="descripcion1">Mates</p></div>
+            <div class="productos1"><img src="../img/neceser.jpeg" alt="neceser"><p class="descripcion1">Neceser</p></div>
+            <div class="productos1"><img src="../img/llaveros.jpeg" alt="llaveros"><p class="descripcion1">Llavero</p></div>
+            <div class="productos1"><img src="../img/portaespirales.jpeg" alt="portaespirales"><p class="descripcion1">Portaespirales</p></div>
+            <div class="productos1"><img src="../img/tablas.jpeg" alt="tablas"><p class="descripcion1">Tablas</p></div>
+        </section>
     </main>
     <br><br>
-    <footer>
-        <section class="pie-pagina">
-            <div class="pie-contacto">
-                <h3><strong>Contacto</strong></h3><br>
-                    <ul>
-                        <li>
-                            <a href="tel:3416232315"><i class="fa-solid fa-phone" style="color: #000000;"></i>3416232315</a><br><br>
-                            <a href="https://www.google.com/maps/place/Regaleria+Tati/@-32.9813944,-60.6328918,18.8z/data=!4m14!1m7!3m6!1s0x95b7ab4222f3eca7:0x2769c09827c645a7!2sRegaleria+Tati!8m2!3d-32.9812985!4d-60.6328528!16s%2Fg%2F11vy6w3t62!3m5!1s0x95b7ab4222f3eca7:0x2769c09827c645a7!8m2!3d-32.9812985!4d-60.6328528!16s%2Fg%2F11vy6w3t62?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Bv. Segui 120 Rosario, Santa Fe</a><br><br>
-                            <p>Lunes a Domingos de 10:00hs a 20:00hs</p>
-                        </li>
-                    </ul>
+    <footer class="footer">
+        <div class="footer-content">
+        <div class="footer-col">
+            <h3>Contacto</h3>
+            <ul>
+            <li><a href="tel:3416232315"><i class="fa-solid fa-phone" style="color: #000000;"></i>3416232315</a></li>
+            <li>
+                <a href="https://www.google.com/maps/place/Regaleria+Tati/@-32.9813944,-60.6328918,18.8z/data=!4m14!1m7!3m6!1s0x95b7ab4222f3eca7:0x2769c09827c645a7!2sRegaleria+Tati!8m2!3d-32.9812985!4d-60.6328528!16s%2Fg%2F11vy6w3t62!3m5!1s0x95b7ab4222f3eca7:0x2769c09827c645a7!8m2!3d-32.9812985!4d-60.6328528!16s%2Fg%2F11vy6w3t62?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="fa-solid fa-location-dot" style="color: #000000;"></i>Bv. Segui 120 Rosario, Santa Fe</a>
+            </li>
+            <li>Lunes a Domingos: 10:00 a 20:00 hs</li>
+            </ul>
+        </div>
+            <div class="footer-col">
+            <h3>Redes sociales</h3>
+            <div class="social-icons">
+            <a href="https://www.instagram.com/regaleriatati/" target="_blank"><img src="../icons/ig.png" alt="Instagram"></a>
+            <a href="https://wa.me/3416232315" target="_blank"><img src="../icons/wsp.png" alt="Whatsapp"></a>
+            <a href="https://www.naturacosmeticos.com.ar/consultoria/TATIANALAURICH" target="_blank"><img src="../icons/LogoNatura.png" alt="Natura"></a>
             </div>
-            <div class="pie-redes">
-                <h3><strong>Redes sociales</strong></h3><br>
-                        <ul>
-                            <li>
-                                <a  class="ig"  href="https://www.instagram.com/regaleriatati/" target="_blank"><img src="../icons/ig.png" alt="instagram" width="30" height="30"></a>
-                                <a class="wsp"  href="https://wa.me/3416232315" target="_blank"><img src="../icons/wsp.png"alt="whatsapp" width="30" height="30"></a><br><br>
-                                <a  class="nat"  href="https://www.naturacosmeticos.com.ar/consultoria/TATIANALAURICH" target="_blank"><img src="../icons/LogoNatura.png" alt="nat" width="40" height="40"></a>
-                            </li>
-                        </ul>
+        </div>
+        <div class="footer-col">
+            <div class="mapa-sombra">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.0022661132894!2d-60.632852799999995!3d-32.9812985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4222f3eca7%3A0x2769c09827c645a7!2sRegaleria%20Tati!5e1!3m2!1ses-419!2sar!4v1743605596276!5m2!1ses-419!2sar" width="300" height="200" allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <div class="pie-mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.0022661132894!2d-60.632852799999995!3d-32.9812985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4222f3eca7%3A0x2769c09827c645a7!2sRegaleria%20Tati!5e1!3m2!1ses-419!2sar!4v1743605596276!5m2!1ses-419!2sar" width="300" height="200" style="border: 0;"></iframe>
-            </div>
-        </section>
+        </div>
+        </div>
     </footer>
 </body>
 </html>

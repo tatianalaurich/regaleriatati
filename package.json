@@ -1,0 +1,21 @@
+{
+  "name": "intro.html",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola 👋, soy Tatiana Laurich</h1>\r <h3 align=\"center\">Una apasionada desarrolladora frontend de Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass estilos/main.scss estilos/style.css --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatianalaurich/regaleriatati.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatianalaurich/regaleriatati/issues"
+  },
+  "homepage": "https://github.com/tatianalaurich/regaleriatati#readme"
+}
