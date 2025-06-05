@@ -200,10 +200,6 @@ align-items: center;
     flex-direction: column;
 }
 
-  // Estructura HTML general omitida por brevedad (solo cambios)
-
-  // Secciones que usan @extend
-
 .productos1 {
     @extend %card;
 
