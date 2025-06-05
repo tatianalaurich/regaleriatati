@@ -349,7 +349,7 @@ button[type="submit"]:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
   gap: 1.5rem;
-  padding: 2rem;
+  padding: 3rem;
 }
 .natura .natura1 {
   background-color: white;
@@ -395,6 +395,7 @@ button[type="submit"]:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columnas */
   gap: 1.5rem;
+  padding: 3rem;
 }
 
 .productos1 {
